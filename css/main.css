@@ -1,0 +1,84 @@
+h1 {
+  background-color: navy;
+  color: white;
+}
+
+.container {
+  background-image: url(https://images.unsplash.com/photo-1559571773-6271bd8fe553?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1422&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+  min-height: 100vh;
+  padding: 128px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 48px;
+  }
+}
+
+.content {
+  max-width: 548px;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: whitesmoke;
+}
+
+.avatar {
+  width: 200px;
+  margin-bottom: 28px;
+  object-fit: cover;
+  box-shadow: 8px 8px 8px 8px black;
+}
+
+.about {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+.contact {
+  margin-bottom: 48px;
+}
+
+.job {
+  font-size: 22px;
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+
+.name {
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  padding-left: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .name {
+    font-size: 42px;
+  }
+}
+
+.button {
+  background-color: navy;
+  color: whitesmoke;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+.contact-icon {
+  margin-right: 12px;
+  width: 16px;
+}
+
+.title {
+  font-size: 96px;
+  font-weight: 600;
+  text-align: center;
+  background-color: transparent;
+  color: whitesmoke;
+}
